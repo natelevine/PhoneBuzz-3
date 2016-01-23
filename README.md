@@ -13,7 +13,7 @@ module.exports = {
   number: [VALID-TWILIO-NUMBER]
 };
 ````
-Then, on line 33, the url used as an option to client.makeCall must be replaced with whatever host url or ngrok url you are using with the `/greet` endpoint added.
+Then, on line 151, the url used as an option to client.makeCall must be replaced with whatever host url or ngrok url you are using with the `/greet` endpoint added.
 
 Now start the server with `node server/server.js`, this will run it on http://localhost:3000.
 
